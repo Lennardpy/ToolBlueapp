@@ -8,4 +8,4 @@ jupyter nbextension enable --py widgetsnbextension
 jupyter serverextension enable --py voila
 
 # Start Voila server
-voila --port=$PORT --no-browser --enable_nbextensions=True
+web: voila notebooks --port=$PORT --no-browser --Voila.ip=0.0.0.0
